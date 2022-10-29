@@ -9,7 +9,7 @@ from leancloud import user
 from fastapi.middleware.cors import CORSMiddleware
 
 
-app = FastAPI()
+app = FastAPI(https://wyblog1.eu.org)
 
 origins = [
     "*"
@@ -122,4 +122,4 @@ async def friend():
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1")
+    uvicorn.run("main:app", host="wyblog1.eu.org")
